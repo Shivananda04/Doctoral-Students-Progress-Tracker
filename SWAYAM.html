@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration</title>
+    <link rel="stylesheet" href="SWAYAM_style.css">
+</head>
+<body>
+    <header>
+        <button class="menu-btn" id="menu-btn">☰</button>
+        <h1 class="title">DOCTORAL RESEARCH PORTAL</h1>
+        <a href="profile.html" target="_main">
+            <img src="profile-photo2.png" alt="Profile" class="profile">
+        </a>
+    </header>
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" id="close-btn">&times;</a>
+        <a href="home.html">Dashboard</a>
+        <a href="#">DC Meetings</a>
+        <a href="#">Progress Evaluation</a>
+        <a href="#">Research publication</a>
+        <a href="SWAYAM.html">SWAYAM Courses</a>
+        <a href="#">Exam Management</a>
+        <div class="bottom-links">
+            <a href="#">Settings</a>
+            <a href="#">Help Center</a>
+        </div>
+    </div>
+    <main>
+        <div id="container">
+            <h1>Swayam Registration</h1>
+            <div class="button-container">
+                <button class="swayam-button" id="register-btn">Register</button>
+                <button class="swayam-button" id="my-courses-btn">My Courses</button>
+            </div>
+            <div id="Available-courses" style="display: none;">
+                <h2>Available Courses</h2>
+                <div id="available-courses-list">
+                    <!-- Available course entries will be dynamically added here -->
+                </div>
+            </div>
+            <div id="My-courses" style="display: none;">
+                <h2>My Courses</h2>
+                <div id="courses">
+                    <!-- My course entries will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="SWAYAM_script.js"></script>
+</body>
+</html>
